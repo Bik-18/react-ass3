@@ -1,0 +1,42 @@
+#feedBacksContainer{
+    background-color: blueviolet;
+    border: 2px solid balck;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between
+   }
+.btnDelete{
+    padding: 0px 25px;
+    background-color: darkgreen;
+    color: black;
+    border-radius: 10px;
+    border: 2px black solid;
+    font-weight: 900;
+    height: 40px;
+    /* margin: 20px 10px; */
+}
+.btnDelete:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    #feedBacksContainer{
+        /* background-color: blueviolet;
+        border: 2px solid balck;
+        border-radius: 20px;
+        padding: 20px;
+        font-size: 20px; */
+        margin: 10px 20px;
+        /* font-weight: 500; */
+        flex-direction: column;       
+    }
+
+    .btnDelete{
+       width: 100px;
+       margin: auto;
+    }
+    
+  }

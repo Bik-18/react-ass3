@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+#formDiv{
+  border-radius: 10px;
+  background-color: #61dafb;
+  margin: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#formDiv button{
+    margin: 20px auto;
+    /* margin-top: 20px; */
+    padding: 8px 30px;
+    width: fit-content;
+    border-radius: 20px;
+}
+#formDiv button:hover{
+  background-color: aquamarine;
+}
+
+#feedbacksResultDiv{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+button{
+  padding: 0px 25px;
+  background-color: brown;
+  color: black;
+  border-radius: 10px;
+  border: 2px black solid;
+  font-weight: 900;
+  height: 40px;
+  /* margin: 20px 10px; */
+}
+
+#newPage{
+  display: flex;
+  flex-direction: column
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  #feedbacksResultDiv{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
